@@ -1,7 +1,8 @@
 html{
 	overflow: hidden;
     background-image: url(../img/bg.jpg);
-	background-size: 85%;
+	background-size: 100%;
+    background-position: center;
 }
 
 body{
@@ -18,4 +19,16 @@ img{
     color: white;
 	font-family: fantasy;
 	font-size: 70px;
+}
+
+#opener{
+    width: 5000px;
+    height: 5000px;
+    background-color: #c12480;
+    position: absolute;
+    margin-left: -2500px;
+	left: 50%;
+	margin-top:-2500px;
+	top: 50%;
+	border-radius: 50%;
 }
